@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test mocal</title>
+    <link rel="stylesheet" href="../node_modules/mocha/mocha.css">
+</head>
+<body>
+<div id="mocha"></div>
+<script src="../node_modules/mocha/mocha.js"></script>
+<script src="../node_modules/chai/chai.js"></script>
+<script src="test.js"></script>
+<script>
+    mocha.setup('bdd');
+</script>
+<script src="index.js"></script>
+<script>
+    // 开始测试
+    mocha.run();
+</script>
+</body>
+</html>
